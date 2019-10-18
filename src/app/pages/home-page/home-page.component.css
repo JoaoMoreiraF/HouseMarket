@@ -1,0 +1,140 @@
+
+.row {
+    justify-content: center;
+}
+
+nz-header {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url('https://cjs.zapcorp.com.br/Content/img/home/fundo-zap-busca.jpg');
+    width: 100%;
+    height: 30rem;
+    padding: 0;
+}
+
+.header{
+    color: #fff;
+    padding: 10rem 2rem 3rem;
+    background-color:rgba(47, 42, 36, 0.36);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+
+.section{
+    width: 100%;
+    padding: 1rem;  
+}
+
+.search-bar {
+    width: 80%;
+}
+
+.type{
+    justify-content: left;
+}
+
+.slogan{
+    color: #fff;
+}
+
+.advertise{
+    width: 150px;
+    font-size: 18pt;
+    align-items: center;
+    border: transparent;
+}
+
+.divider{
+    margin: -10px;
+}
+
+
+.advertiseHeaderSectionDescription{
+    color: #fff;
+}
+
+.advertiseHeaderSection{
+    text-align: center;
+    color: #fff;
+}
+
+.downButton{
+    width: 45px; 
+    height: 45px; 
+    line-height: 45px; 
+    text-align: center; 
+    background-color: #fff;
+    color: #ff5a00;
+    font-size: 24px;
+    border-radius: 50%; 
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    margin-left: -10px;
+    cursor: pointer;
+    z-index: 10;
+    content: "\e62e";
+    box-shadow: 0 2px 3px rgba(0,0,0,0.25);
+}
+
+.howToUse{
+    text-align: center;
+    font-size: 10pt;
+    background: #007bff;
+    width: 101%;
+    padding: 4rem;
+    min-height: 205px;
+    margin-bottom: 4rem;
+    box-shadow: -1px 1px 5px 0px #000000f0;
+}
+
+.iconHowto{
+    color: #fff;
+    font-size: 40pt;
+}
+.stepTitle{
+    color: #fff;
+}
+
+.info{
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    background: #007bff00;
+}
+
+.fa-chevron-down {
+    color: darkslategrey;
+}
+
+#spinners {
+    margin: 3% 1% 3% 1%;
+}
+
+#spinners .spinner-border {
+    display: inline-block;
+    margin: 1% 3% 1% 3%;
+    width: 8rem !important ;
+    height: 8rem !important;
+    text-align: center;
+    vertical-align: text-bottom;
+    border: .25em solid currentColor;
+    border-right-color: #00000021;
+    border-radius: 50%;
+    -webkit-animation: spinner-border linear infinite;
+    animation: spinner-border linear infinite;
+}
+
+#spinners p#spinner-info-center {
+    margin-top: 30%; 
+    font-size: 26px; 
+    margin-bottom: 0; 
+    margin-bottom: -7px;
+}
+
+#spinners p#spinner-info-center-under {
+    font-size: 10px;
+}
+

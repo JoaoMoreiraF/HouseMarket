@@ -1,0 +1,72 @@
+:host {
+  display: flex;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.layout {
+  height: 100vh;
+}
+
+.logo {
+
+  width: 100px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  background-image: url(../assets/refinar-busca.png) center no-repeat;
+  float: left;
+}
+
+
+
+.header {
+  
+  width: 100%;
+  height: auto;
+}
+
+[nz-menu] {
+  line-height: 64px;
+}
+
+nz-content {
+  position: relative;
+  /*padding: 0 50px;*/
+}
+
+
+.inner-content {
+  background: #fff;
+  /*padding: 24px;*/
+  min-height: 380px;
+}
+
+nz-footer {
+  height: 270px;
+  background: #007bff;
+  text-align: center;
+}
+
+.footer-info-title {
+  font-size: 15px;
+    line-height: 24.27050985px;
+    font-family: "Merriweather Sans",Arial,Helvetica,sans-serif;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.pure-s ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style: none;
+  text-align: left;
+}
+
+.footer-info-title ul li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
